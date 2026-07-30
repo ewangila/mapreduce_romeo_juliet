@@ -1,4 +1,58 @@
+# Byte-compiled / cache
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# mrjob / local runner temporary files
+.mrjob/
+*.mrjob.conf
+mrjob_tmp/
+*_tmp/
+*.out
+*.log
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter (in case you use notebooks later)
+.ipynb_checkpoints/
+*.ipynb
+
+# Output files from running the jobs (optional but recommended)
+output/
+results/
+*.txt.out
