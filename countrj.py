@@ -10,7 +10,7 @@ class MRRomeoJulietCount(MRJob):
         words = line.split()
         for word in words:
             word = word.lower()
-            if word in ['romeo', 'iuliet']:
+            if word in ['romeo', 'juliet']:
                 yield (word, 1)
 
     def reducer(self, word, counts):
